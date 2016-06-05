@@ -2,65 +2,69 @@
 <html>
 	<head>
 		<title>Queens Animal Shelter</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="styles/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<header>
-			<h1>Queens Animal Shelter</h1>
-			<div id="navigation">
-				<ul>
-					<li><a href="home.html">Home</li>
-					<li><a href="home.html">Donate</li>
-					<li><a href="home.html">Volunteer</li>
-					<li><a href="home.html">Adopt</li>
-					<li><a href="home.html">Gallery</li>
 
+			<div class="title_container">
+				<div class="title_wrapper">
 
-				</ul>
-			</div>
-		</header>
-		<div id="main-content">
+					<div class="class1">
+						<!-- <a href="home.html"><img id="home_icon" src="img/paw.png"></a> -->
+					</div>
+					<div class="class2">
+						<h1 id="opening-text">Queens Animal Shelter</h1>
+					</div>
 
-			<div id="left_form">
-				Enter An Amount: </br>
-				First Name: </br>
-				Last Name: </br> </br>
-
-				Billing Information <br>
-				Street <br>
-				Apt <br>
-				City <br>
-				State <br>
-				Zip <br>
-				Credit Card # <br>
-
+				</div>
 			</div>
 
-			<div id="right_form">
-				<form>
-					<input type="text" name="firstname"><br>
-					<input type="text" name="firstname"><br>
-					<input type="text" name="firstname"><br><br>
 
-					<input type="text" name="firstname"><br>
-					<input type="text" name="firstname"><br>
-					<input type="text" name="firstname"><br>
-					<input type="text" name="firstname"><br>
-					<input type="text" name="firstname"><br>
-					<input type="text" name="firstname"><br>
-					<input type="text" name="firstname"><br>
-				</form>
-			</div>
+				<div class="nav-container">
+						<ul>
+							<li><a href="home.html">Home</a></li>
+							<li>
+								<a href="donate.html">Donate</a>
+							</li>
+							<li>
+								<a href="volunteer.html">Volunteer</a>
+							</li>
+							<li><a href="adopt.html">Adopt</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+						</ul>
+				</div>
 
 			<div class="clear"></div>
 
-		</div>
-		<footer>
-			<div id="social-media">
-				<a href="facebook.com"><img class="resize" src="img/fblogo.png"></a>
-				<a href="youtube.com"><img class="resize" src="img/twitterLogo.png"></a>
-				<a href="twitter.com"><img class="resize" src="img/youtubeLogo.png"></a>
-			</div>
-		</footer>
+		</header>
+
+
+	 <div class="form-style-8">
+		 <h2>Donation Form</h2>
+		 <form>
+			 <input type="text" name="field1" placeholder="Full Name" />
+			 <input type="email" name="field2" placeholder="Email" />
+			 <input type="text" name="field3" placeholder="Address" />
+			 <input type="text" name="field4" placeholder="Apt" />
+			 <input type="text" name="field5" placeholder="City" />
+			 <input type="text" name="field6" placeholder="State" />
+			 <input type="text" name="field7" placeholder="Zip" />
+			 <input type="text" name="field7" placeholder="Credit Card #" />
+
+
+			 <input type="button" value="Submit Donation" />
+		 </form>
+	 </div>
+
+	 <footer>
+		 <div class="social-media">
+			 <a href="https://www.facebook.com/"><img class="resize" src="img/fblogo.png"></a>
+			 <a href="https://www.youtube.com/"><img class="resize" src="img/twitterLogo.png"></a>
+			 <a href="https://twitter.com/"><img class="resize" src="img/youtubeLogo.png"></a>
+		 </div>
+	 </footer>
 	</body>
 </html>
