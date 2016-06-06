@@ -1,40 +1,22 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
 body{
-	margin:0;
-	padding: 0;
-	padding-bottom: 60px;
-	overflow: hidden;
+	 margin: 0 0 64px;
 }
 footer{
-	margin-bottom: 20px;
-	position:absolute;
-	bottom:0;
-	margin: 0 auto;
-	width:100%;
-	display: table;
-	height:60px;   /* Height of the footer */
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 64px;
+	width: 100%;
 	background: #2f3036;
 }
-
 h1{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 40px;
 }
-
-/*.title_container{
-	display: block;
-	width: 100%
-	margin: 0 auto;
-}
-.title_banner{
-	display: inline-block;
-	margin-right: 5px;
-	vertical-align: top;
-}
-#home_icon{
-	width: 96px;
-	height: 96px;
-}*/
-
 
 .title_container {
 	text-align:center;
