@@ -1,12 +1,12 @@
 html{
-	position: relative;
+	/**position: relative;**/
 	min-height: 100%;
 }
 body{
 	 margin: 0 0 64px;
 }
 footer{
-	position: absolute;
+	position: relative;
 	left: 0;
 	bottom: 0;
 	height: 64px;
@@ -16,6 +16,10 @@ footer{
 h1{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
+}
+#main-content{
+	font-family: 'Open Sans', sans-serif;
+
 }
 
 .title_container {
@@ -40,7 +44,6 @@ h1{
     float: left;
 }
 
-/*	Form Styling for Donate*/
 .form-style-8{
 	font-family: 'Open Sans', arial, sans;
 	width: 500px;
@@ -194,4 +197,58 @@ img{
 	margin: 0 auto;
 	width: 95%;
 	margin-bottom: 20px;
+}
+#adopt-description{
+	margin-left: 90px;
+	width: 1000px;
+	padding-bottom: 20px;
+
+}
+#rubix {
+	width: 700px;
+  height: 1000px;
+  
+
+
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+}
+
+.cube {
+	width: 350px;
+	height: 250px;
+	float: left;
+}
+
+li{
+	list-style-type: none;
+}
+
+.home_img{
+	width: 100px;
+	height: 100px;
+}
+
+.imgFit{
+	max-height: 100%;
+	max-width: 100%;
+}
+.adopt_desc{
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left:20px;
+}
+#cube2{
+	background-color: #e5ccff;
+}
+#cube4{
+	background-color: #f2f2f2;
+}
+
+#cube6{
+	background-color: #e5ccff;
+}
+#cube8{
+	background-color: #f2f2f2;
 }
